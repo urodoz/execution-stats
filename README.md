@@ -103,7 +103,7 @@ Show the slower tracking methods or services , optionally grouped by tags
 php app/console urodoz:statsbundle:show
 ```
 
-Show data of performance improve, referenced from the last versions
+Show data of performance improve, referenced from the last versions of a single service. Here you can see how the service has progressd into different versions in execution time
 
 See tracking data generated on HTML
 -----------------------------------
