@@ -26,6 +26,6 @@
         }
     },
     
-    "target-dir": "src/Urodoz/TimeExecutionStatsBundle"
+    "target-dir": "Urodoz/TimeExecutionStatsBundle"
     
 }
