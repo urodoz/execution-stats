@@ -1,0 +1,31 @@
+{
+    "name":        "urodoz/execution-stats",
+    "type":        "symfony-bundle",
+    "description": "This bundle logs the time execution of methods, and supply stats data.",
+    "keywords":    ["symfony","stats","jenkins","timer","performance","log"],
+    "homepage":    "https://github.com/urodoz/TimeExecutionStatsBundle",
+    "license":     "MIT",
+
+    "authors": [
+        {
+            "name": "Albert Lacarta",
+            "email": "urodoz@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php":                      ">=5.3.2",
+        "symfony/framework-bundle": ">=2.1.0"
+    },
+
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-0": {
+            "Urodoz\\TimeExecutionStatsBundle": ""
+        }
+    },
+    
+    "target-dir": "src/Urodoz/TimeExecutionStatsBundle"
+    
+}
