@@ -3,8 +3,6 @@ TimeExecutionStatsBundle
 
 Service to handle progress of time execution of service and methods in your Symfony2 application
 
-Currently , on development status
-
 Installation on Symfony 2.1
 ---------------------------
 
