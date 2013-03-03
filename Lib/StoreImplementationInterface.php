@@ -17,6 +17,6 @@ interface StoreImplementationInterface
      * @param string $tag     Tag of the key (to be grouped)
      * @param string $version Version of the key
      */
-    public function storeLog($time, $name, $tag=null, $version=null);
+    public function storeLog($time, $name, $tag, $version);
 
 }

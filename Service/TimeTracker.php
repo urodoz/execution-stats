@@ -51,7 +51,7 @@ class TimeTracker
      * @param string $tag
      * @param string $version
      */
-    public function start($name, $tag=null, $version=null)
+    public function start($name, $tag, $version)
     {
         if(!isset($this->timersBag[$name])) $this->timersBag[$name] = array();
 
