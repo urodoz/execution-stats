@@ -3,7 +3,7 @@
     "type":        "symfony-bundle",
     "description": "This bundle logs the time execution of methods, and supply stats data.",
     "keywords":    ["symfony","stats","jenkins","timer","performance","log"],
-    "homepage":    "https://github.com/urodoz/TimeExecutionStatsBundle",
+    "homepage":    "https://github.com/urodoz/execution-stats",
     "license":     "MIT",
 
     "authors": [
