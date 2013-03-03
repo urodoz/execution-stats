@@ -30,15 +30,15 @@ class DoctrineImplementation implements StoreImplementationInterface
     /**
      * @see StoreImplementationInterface::storeLog()
      */
-    public function storeLog($time, $name, $tag = null, $version = null)
+    public function storeLog($time, $name, $tag, $version)
     {
         $em = $this->doctrine->getEntityManager();
 
         $log = new Log();
         $log->setTime(number_format($time, 4));
         $log->setName($name);
-        if(!is_null($tag)) $log->setTag ($tag);
-        if(!is_null($version)) $log->setVersion ($version);
+        $log->setTag ($tag);
+        $log->setVersion ($version);
         $log->setExecutions(1);
 
         $em->persist($log);
