@@ -1,0 +1,12 @@
+parameters:
+    library.timeExecutionStats.class: Urodoz\TimeExecutionStatsBundle\Service\TimeTracker
+    library.timeExecutionStatsImplementation.class: Urodoz\TimeExecutionStatsBundle\Lib\Implementation\DoctrineImplementation
+
+services:
+    urodoz.timeTracker:
+        class: %library.timeExecutionStats.class%
+        arguments: [@urodoz.timeTracker.storageImplementation]
+
+    urodoz.timeTracker.storageImplementation:
+        class: %library.timeExecutionStatsImplementation.class%
+        arguments: [@doctrine]
