@@ -3,8 +3,8 @@ TimeExecutionStatsBundle
 
 Service to handle progress of time execution of service and methods in your Symfony2 application
 
-Installation on Symfony 2.1
----------------------------
+Installation on Symfony with Composer
+-------------------------------------
 
 On the *composer.json* file add :
 
